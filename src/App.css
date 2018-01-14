@@ -26,3 +26,83 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
+.flexContainer{
+  display:flex
+}
+.flexEndJustify {
+  justify-content: flex-end;
+}
+.flexCenterJustify {
+  justify-content: center;
+}
+.flexSpaceBetweenJustify {
+  justify-content: space-between;
+}
+.flexSpaceAroundJustify {
+  justify-content: space-around;
+}
+.flexSpaceEvenlyJustify {
+  justify-content: space-evenly;
+}
+.flexDirectionRowReverse {
+  flex-direction: row-reverse;
+}
+.flexDirectionColumn {
+  flex-direction: column;
+}
+.flexDirectionColumnReverse {
+  flex-direction: column-reverse;
+}
+.flexItem1 {
+  flex: 1
+}
+.flexItem2 {
+  flex: 2
+}
+.flexItem3 {
+  flex: 3
+}
+.flexItem4 {
+  flex: 4
+}
+.flexItem5 {
+  flex: 5
+}
+
+.postClass {
+
+}
+
+.inputText {
+  border: solid 1px #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px #e1e1e1;
+  display: block;
+  font-size: 16px;
+  height: 1em;
+  padding: 5px;
+}
+
+.list{
+  background:#fff;
+  color: #333;
+  margin: 30px 0;
+}
+
+.listItem {
+  padding: 2px 8px;
+  min-height: 40px;
+  display: -webkit-box;
+  box-sizing: border-box;
+  -webkit-box-align: center;
+}
+
+.listItem:not(:last-child) {
+  border-bottom: 1px solid #ccc
+}
+
+.listItem:hover {
+  background: #eee
+}
